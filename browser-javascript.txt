@@ -1,0 +1,13 @@
+// JavaScript to extract timestamps and transcript content
+const segments = document.querySelectorAll('ytd-transcript-segment-renderer');
+let transcript = '';
+
+segments.forEach(segment => {
+  const timestamp = segment.querySelector('.segment-timestamp')?.innerText.trim();
+  const text = segment.querySelector('.segment-text')?.innerText.trim();
+  if (timestamp && text) {
+    transcript += `${timestamp} ${text}\n`;
+  }
+});
+
+console.log(transcript);

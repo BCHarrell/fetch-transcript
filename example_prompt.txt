@@ -1,0 +1,17 @@
+Please summarize the attached document consisting of a YouTube video transcript and timestamps in the format hh:mm:ss. Supply the summary in Markdown and include the following sections. I have included a description of what each section should include in {}
+
+# Overview:
+{A 2-3 sentence overview of the summarized material}
+
+## Key points:
+{2-3 bullets of the most important points}
+
+# Main Content
+{A full summary of the material. Do not include any information not found in the transcript}
+
+For the full summary, put timestamps indicating where the information came from. The timestamps do not need to indicate each line of the transcript. For example:
+
+(14:30) Clear instructions are important for LLMs. To get clarity, Brent discussed the following tips...
+(15:34) Brent then discussed...
+
+Do not consolidate more than 5 minutes of material into each portion of the summary. In other words, provide more details than a default summary.
